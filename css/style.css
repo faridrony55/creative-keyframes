@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+     
+    background-color: #0E1822;
+}
+.h1-lead { 
+  max-width: calc(100% - 400px);
+    font-weight: bold;
+    position: relative;
+    display: block;
+    margin :0.5em auto !important; 
+    text-align: left;
+    color: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  
+}
+
+.h1-lead {
+   text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(5, 12, 23, 0.92);
+    font-size: 8rem;
+    line-height: 120px;
+}
+.h1-lead:before,
+.h1-lead:after {
+  position: absolute;
+  content: '';
+  
+}
+
+.h1-lead:before {
+z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    -webkit-animation: anim 3s infinite ease-in;
+    animation: anim 3s infinite ease-in;
+}
+
+.h1-lead:after {
+position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #0E1822;
+  
+}
+
+.h1-lead { 
+  background-image:url("../images/GettyImages-1145050935.jpg"); 
+    background-size: cover;
+    background-color: #0e1822;
+    -webkit-animation: anim 15s infinite linear;
+    animation: anim 15s infinite ease-in-out;
+}
+
+@-webkit-keyframes anim
+{0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
+@-moz-keyframes anim
+{0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
+@-ms-keyframes anim
+{0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
+@keyframes anim
+{0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
+image
